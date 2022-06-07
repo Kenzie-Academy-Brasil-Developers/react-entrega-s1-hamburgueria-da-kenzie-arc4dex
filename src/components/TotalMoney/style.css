@@ -1,0 +1,55 @@
+.secaoTotal{
+  font-family: 'Inter';
+
+  margin-left: 10px;
+  width: 20.2em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #F5F5F5;
+
+  border-top: 2px solid #E0E0E0;
+}
+
+.secaoDinheiro{
+  width: 50vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnRemoverTodos{
+  width: 20em;
+  height: 60px;
+
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #E0E0E0;
+  cursor: pointer;
+}
+
+.btnRemoverTodos:hover{
+  background-color: #828282;
+}
+
+@media(min-width:1045px){
+  .secaoTotal{
+    width: 360px;
+  }
+
+  .btnRemoverTodos{
+    width: 360px;
+  }
+
+  .secaoDinheiro{
+    width: 340px;
+  }
+}

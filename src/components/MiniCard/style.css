@@ -1,0 +1,75 @@
+.produtosCarrinho{
+  width: 540px;
+  height: 100vh;
+}
+
+.listaCarrinho{
+  width: 70vh;
+}
+
+.infoCompra{
+  display: flex;
+}
+
+.containerProdutoCarrinho{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerImgProdutoCarrinho{
+  width: 70px;
+  margin: 0;
+}
+
+.imgProdutoCarrinho{
+  max-width: 70px;
+}
+
+.compraNomeCarrinho{
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 700;
+
+  color: #333333;
+}
+
+.compraCategoriaCarrinho{
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+
+  color: #828282;
+}
+
+.btnRemover{
+  background-color: transparent;
+  border: none;
+
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 500;
+
+  color: #BDBDBD;
+
+  cursor: pointer;
+}
+
+@media(min-width: 550px){
+  .containerProdutoCarrinho{
+    width: 340px;
+  }
+  .produtosCarrinho{
+    width: 300px;
+  }
+
+  .listaCarrinho{
+    width: 70vh;
+  }
+}
+
+@media(min-width: 1040px){
+  .produtosCarrinho{
+    width: 70px;
+  }
+}

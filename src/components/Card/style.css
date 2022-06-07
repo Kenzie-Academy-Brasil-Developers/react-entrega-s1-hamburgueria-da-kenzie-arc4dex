@@ -1,0 +1,81 @@
+.containerCard{
+  display: flex;
+  flex-direction: column;
+
+  width: 18.75em;
+  height: 21.8em;
+
+  border: solid 2px #E0E0E0;
+  border-radius: 5px;
+}
+
+.containerImg{
+  margin: 0;
+  width: 18.7em;
+  height: 9.3em;
+  background-color: #F5F5F5;
+}
+
+.infoProduto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  height: 11em;
+  
+  padding: 10px;
+}
+
+.imgProduto{
+  max-width: 150px;
+}
+
+.nomeProduto{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #333333;
+
+  margin-bottom: 0;
+  margin-left: 3px;
+}
+
+.categoriaProduto{
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+
+  color:#828282; 
+
+  margin-top: 0;
+  margin-left: 3px;
+}
+
+.precoProduto{
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #27AE60;
+
+  margin-left: 3px;
+}
+
+.btnAdicionar{
+  width: 6.8em;
+  height: 35px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #27AE60;
+  color: white; 
+  
+  cursor: pointer;
+}
+
+.btnAdicionar:hover{
+  background-color: #93D7AF;
+}
