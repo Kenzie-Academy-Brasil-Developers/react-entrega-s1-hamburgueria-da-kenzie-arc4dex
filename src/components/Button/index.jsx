@@ -7,28 +7,27 @@ function ThemeBtn( { produto, currentSale, setCurrentSale } ){
 
   function btnAdd(){
 
-   const produtoCarrinho = currentSale.filter((element) => {
+   currentSale.filter((element) => {
       if(element.name === produto.name){
         
         produto.quantidade += 1 
         setQntItens(qntItens + 1)
-        
+
+        return  setCurrentSale([...currentSale])
       }
     })
   }
 
   function btnSub(){
-    const produtoCarrinho = currentSale.filter((element) => {
+    currentSale.filter((element) => {
       if(produto.quantidade > 1){
 
         produto.quantidade -= 1
         setQntItens(qntItens - 1)
 
-        return element
+        return setCurrentSale([...currentSale])
       }
     })
-
-    setCurrentSale(produtoCarrinho)
   }
 
   return(
